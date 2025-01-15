@@ -1,0 +1,152 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#model1{
+    height: 650px;
+    background-image: url(Img/model1img.jpg);
+    background-size:cover
+}
+#model2{
+    height: 650px;
+    background-image: url(Img/modelSimg.jpg);
+    background-size:cover
+}
+#model3{
+    height: 650px;
+    background-image: url(Img/model3img.jpg);
+    background-size:cover
+}
+#model4{
+    height: 650px;
+    background-image: url(Img/modelXimg.jpg);
+    background-size:cover
+}
+
+#navigation-bar{
+display: flex;
+}
+
+#img-logo{
+width: 10vw;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 5px;
+}
+#models-list{
+    display: flex;
+    margin-left: 150px;
+margin-top: 10px;
+list-style: none;
+}
+    
+#menu-list{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 10px;
+    list-style: none;
+  }
+#models li,#menu li{
+margin: 20px;
+}
+#models,#menu{
+     font-family: 'Poppins', sans-serif;
+  color: black;
+    font-weight: bold;
+}
+#model1 nav a,#model2 nav a,#model3 nav a,#model4 nav a {
+    text-decoration: none;
+    color: black;
+}
+h2 a {
+    color: black;
+    }
+#main h1{
+    font-size: 50px;
+    margin-top: 50px;
+    display: flex;
+     font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    
+}
+#main h2{
+    margin-top: 30px;
+    display: flex;
+     font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    font-size: 20px ;
+}
+
+#buttons{
+display: flex;
+margin-top: 150px;
+justify-content: center;
+}
+#first,#second{
+    width: 200px;
+    height: 30px;
+    margin-right: 40px;
+    background-color: white;
+    border: 2px solid #000000;
+    color: black;
+     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+#loginpage{
+    display: flex;
+}
+#loginsection{
+    display: flex;
+    height: 650px;
+    width: 800px;
+    align-items: center;
+    background-image: url(Img/signinbackground2.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    padding: 50px;
+}
+#loginsection h1{
+margin-bottom: 50px;
+}
+#loginsection input{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 25px;
+}
+#loginsection button{
+    margin-left: 150px;
+    width: 100px;
+    height: 25px;
+}
+#background{
+    height: 650px;
+    width: 900px;
+    background-image: url(Img/signinbackground.jpg);
+    background-size:contain;
+}
+#contact,#about{
+    height: 650px;
+    background-image: url(Img/aboutbackground.jpg);
+    background-size: cover   ;
+    padding: 110px;
+}
+#about ,#contact {
+    font-family: 'Poppins', sans-serif;
+color: #dee2e6;
+font-weight: bold;
+margin-bottom: 20px;
+
+}
+#about nav a, #contact nav a{
+    color: #dee2e6;
+    text-decoration: none;
+}
+
