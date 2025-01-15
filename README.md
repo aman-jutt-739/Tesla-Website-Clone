@@ -1,2 +1,3 @@
 # Tesla-Website-Clone
-This project is a clone of Tesla website, for only 3 to 4 car models only. This website is not the extended clone of real Tesla website.
+First open the index.html page on your broswer, it will ask for username & password. The username is 'ict' & password is '1234'.
+It will then directly take you to the home.html page. Where different buttons are created like for 'about us', 'contact' & buttons for going to different car models pages.
